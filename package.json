@@ -1,0 +1,37 @@
+{
+  "name": "migraineurs-weather-app",
+  "version": "0.1.0",
+  "description": "An app that quickly identifies triggers in the weather for migrainers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RealLacuni/migraineur-weather-app.git"
+  },
+  "keywords": [
+    "rest",
+    "security",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Rene Pazitny",
+  "bugs": {
+    "url": "https://github.com/RealLacuni/migraineur-weather-app/issues"
+  },
+  "homepage": "https://github.com/RealLacuni/migraineur-weather-app",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rest": "^2.0.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d --output ./target/classes/static/built/bundle.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.1.12"
+  }
+}
